@@ -141,6 +141,17 @@ img {
   margin: 14px 0 34px;
 }
 
+.section-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+.section-head .btn-sm {
+  margin-top: 6px;
+  flex-shrink: 0;
+}
+
 /* ============================================================
    Navigation
    ============================================================ */

@@ -1,2 +1,10 @@
 ﻿_backup/
 _shots/
+
+# LaTeX build artifacts (cv1_yuqi)
+cv1_yuqi/*.aux
+cv1_yuqi/*.fdb_latexmk
+cv1_yuqi/*.fls
+cv1_yuqi/*.log
+cv1_yuqi/*.out
+cv1_yuqi/*.synctex.gz
