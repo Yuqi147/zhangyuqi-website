@@ -268,78 +268,81 @@
           </figure>
         </div>
 
-        <section class="trajectory" id="life-trajectory" aria-labelledby="trajectory-title">
-          <div class="trajectory-heading">
-            <div>
-              <h2 id="trajectory-title">Geographic life trajectory</h2>
-              <p>Places I have studied, worked, lived, and explored.</p>
+        <details class="trajectory-disclosure">
+          <summary class="btn-sm">Where I have been</summary>
+          <section class="trajectory" id="life-trajectory" aria-labelledby="trajectory-title">
+            <div class="trajectory-heading">
+              <div>
+                <h2 id="trajectory-title">Geographic life trajectory</h2>
+                <p>Places I have studied, worked, lived, and explored.</p>
+              </div>
+              <p class="trajectory-stats" id="trajectoryStats"></p>
             </div>
-            <p class="trajectory-stats" id="trajectoryStats"></p>
-          </div>
 
-          <fieldset class="trajectory-modes">
-            <legend>Map layers <span>Choose any combination</span></legend>
-            <label><input type="checkbox" data-map-level="first" checked disabled />First-level regions</label>
-            <label><input type="checkbox" data-map-level="second" disabled />Second-level regions</label>
-            <label><input type="checkbox" data-map-level="precise" disabled />Precise location</label>
-          </fieldset>
+            <fieldset class="trajectory-modes">
+              <legend>Map layers <span>Choose any combination</span></legend>
+              <label><input type="checkbox" data-map-level="first" checked disabled />First-level regions</label>
+              <label><input type="checkbox" data-map-level="second" disabled />Second-level regions</label>
+              <label><input type="checkbox" data-map-level="precise" disabled />Precise location</label>
+            </fieldset>
 
-          <div class="trajectory-map-toolbar">
-            <p id="trajectoryMapDescription">States and provinces. Smaller regions appear above larger regions.</p>
-            <div class="trajectory-views" role="group" aria-label="Map area">
-              <button type="button" data-map-area="world" disabled>World</button>
-              <button type="button" data-map-area="china" disabled>China</button>
-              <button type="button" data-map-area="us" disabled>US</button>
-              <button type="button" data-map-area="europe" disabled>Europe</button>
+            <div class="trajectory-map-toolbar">
+              <p id="trajectoryMapDescription">States and provinces. Smaller regions appear above larger regions.</p>
+              <div class="trajectory-views" role="group" aria-label="Map area">
+                <button type="button" data-map-area="world" disabled>World</button>
+                <button type="button" data-map-area="china" disabled>China</button>
+                <button type="button" data-map-area="us" disabled>US</button>
+                <button type="button" data-map-area="europe" disabled>Europe</button>
+              </div>
             </div>
-          </div>
 
-          <div class="trajectory-map-frame">
-            <div id="trajectoryMap" class="trajectory-map" role="region" aria-label="Map of places visited" aria-describedby="trajectoryMapDescription trajectoryMapHelp"></div>
-            <div class="trajectory-map-loading" id="trajectoryMapLoading" role="status">
-              <span id="trajectoryMapLoadingText">Loading the map…</span>
-              <button type="button" id="trajectoryMapRetry" hidden>Try again</button>
+            <div class="trajectory-map-frame">
+              <div id="trajectoryMap" class="trajectory-map" role="region" aria-label="Map of places visited" aria-describedby="trajectoryMapDescription trajectoryMapHelp"></div>
+              <div class="trajectory-map-loading" id="trajectoryMapLoading" role="status">
+                <span id="trajectoryMapLoadingText">Loading the map…</span>
+                <button type="button" id="trajectoryMapRetry" hidden>Try again</button>
+              </div>
             </div>
-          </div>
 
-          <ul class="trajectory-boundary-legend" aria-label="Map boundaries">
-            <li><span class="boundary-line boundary-country" aria-hidden="true"></span>Country border</li>
-            <li data-boundary-legend="first"><span class="boundary-line boundary-first" aria-hidden="true"></span>First-level boundary</li>
-            <li data-boundary-legend="second" class="is-inactive"><span class="boundary-line boundary-second" aria-hidden="true"></span>Second-level boundary</li>
-            <li><span class="boundary-line boundary-disputed" aria-hidden="true"></span>Disputed area</li>
-          </ul>
-          <div class="trajectory-map-footer">
-            <ul class="trajectory-legend" aria-label="Purpose colors">
-              <li><span class="trajectory-swatch purpose-study"></span>Study / work</li>
-              <li><span class="trajectory-swatch purpose-travel"></span>Travel</li>
-              <li><span class="trajectory-swatch purpose-live"></span>Live</li>
-              <li><span class="trajectory-swatch purpose-transfer"></span>Transfer</li>
+            <ul class="trajectory-boundary-legend" aria-label="Map boundaries">
+              <li><span class="boundary-line boundary-country" aria-hidden="true"></span>Country border</li>
+              <li data-boundary-legend="first"><span class="boundary-line boundary-first" aria-hidden="true"></span>First-level boundary</li>
+              <li data-boundary-legend="second" class="is-inactive"><span class="boundary-line boundary-second" aria-hidden="true"></span>Second-level boundary</li>
+              <li><span class="boundary-line boundary-disputed" aria-hidden="true"></span>Disputed area</li>
             </ul>
-            <p id="trajectoryMapHelp">Drag to pan. Scroll, pinch, or use + / − to zoom.</p>
-          </div>
-          <p class="trajectory-priority">First-level priority is study/work → travel → live → transfer. On second-level regions and precise cells, live takes priority over all other purposes.</p>
-          <div class="trajectory-selection" id="trajectorySelection" role="status" aria-live="polite">Select a region or a city in the table to explore a stay.</div>
+            <div class="trajectory-map-footer">
+              <ul class="trajectory-legend" aria-label="Purpose colors">
+                <li><span class="trajectory-swatch purpose-study"></span>Study / work</li>
+                <li><span class="trajectory-swatch purpose-travel"></span>Travel</li>
+                <li><span class="trajectory-swatch purpose-live"></span>Live</li>
+                <li><span class="trajectory-swatch purpose-transfer"></span>Transfer</li>
+              </ul>
+              <p id="trajectoryMapHelp">Drag to pan. Scroll, pinch, or use + / − to zoom.</p>
+            </div>
+            <p class="trajectory-priority">First-level priority is study/work → travel → live → transfer. On second-level regions and precise cells, live takes priority over all other purposes.</p>
+            <div class="trajectory-selection" id="trajectorySelection" role="status" aria-live="polite">Select a region or a city in the table to explore a stay.</div>
 
-          <div class="trajectory-table-heading">
-            <h3>Stay log</h3>
-            <button class="trajectory-download" id="trajectoryDownload" type="button" disabled>Download CSV <span aria-hidden="true">↓</span></button>
-          </div>
-          <p class="trajectory-data-status" id="trajectoryDataStatus" role="status">Loading the stay log…</p>
-          <button class="trajectory-data-retry" id="trajectoryDataRetry" type="button" hidden>Reload stay log</button>
-          <div class="trajectory-table-scroll" role="region" aria-label="Stay log table" tabindex="0">
-            <table class="trajectory-table">
-              <caption>City, state or province, country, purpose, and dates of each stay. Select a city to locate it on the map.</caption>
-              <thead>
-                <tr><th scope="col">City</th><th scope="col">State / Province</th><th scope="col">Country</th><th scope="col">Purpose</th><th scope="col">Stay start</th><th scope="col">Stay end</th></tr>
-              </thead>
-              <tbody id="trajectoryRows"></tbody>
-            </table>
-          </div>
-          <noscript><p class="trajectory-note">Enable JavaScript to view the interactive map and stay log.</p></noscript>
-          <p class="trajectory-note">Precise locations use 0.5° × 0.5° longitude/latitude cells. Coordinates are approximate for each place. Second-level regions are prefecture-level cities in China and counties in the U.S.; Boston is shown in Suffolk County. “Present” marks an ongoing stay.</p>
-          <p class="trajectory-note">Dashed outlines follow Natural Earth’s disputed-area dataset. Hover over or select an outline to read its source notes.</p>
-          <p class="trajectory-sources">Map data: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>, <a href="https://www.geoboundaries.org/" target="_blank" rel="noopener">geoBoundaries</a>, and the <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html" target="_blank" rel="noopener">U.S. Census Bureau</a>. <a href="assets/geography/SOURCES.md" target="_blank" rel="noopener">Sources &amp; licenses</a>.</p>
-        </section>
+            <div class="trajectory-table-heading">
+              <h3>Stay log</h3>
+              <button class="trajectory-download" id="trajectoryDownload" type="button" disabled>Download CSV <span aria-hidden="true">↓</span></button>
+            </div>
+            <p class="trajectory-data-status" id="trajectoryDataStatus" role="status">Loading the stay log…</p>
+            <button class="trajectory-data-retry" id="trajectoryDataRetry" type="button" hidden>Reload stay log</button>
+            <div class="trajectory-table-scroll" role="region" aria-label="Stay log table" tabindex="0">
+              <table class="trajectory-table">
+                <caption>City, state or province, country, purpose, and dates of each stay. Select a city to locate it on the map.</caption>
+                <thead>
+                  <tr><th scope="col">City</th><th scope="col">State / Province</th><th scope="col">Country</th><th scope="col">Purpose</th><th scope="col">Stay start</th><th scope="col">Stay end</th></tr>
+                </thead>
+                <tbody id="trajectoryRows"></tbody>
+              </table>
+            </div>
+            <noscript><p class="trajectory-note">Enable JavaScript to view the interactive map and stay log.</p></noscript>
+            <p class="trajectory-note">Precise locations use 0.5° × 0.5° longitude/latitude cells. Coordinates are approximate for each place. Second-level regions are prefecture-level cities in China and counties in the U.S.; Boston is shown in Suffolk County. “Present” marks an ongoing stay.</p>
+            <p class="trajectory-note">Dashed outlines follow Natural Earth’s disputed-area dataset. Hover over or select an outline to read its source notes.</p>
+            <p class="trajectory-sources">Map data: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>, <a href="https://www.geoboundaries.org/" target="_blank" rel="noopener">geoBoundaries</a>, and the <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html" target="_blank" rel="noopener">U.S. Census Bureau</a>. <a href="assets/geography/SOURCES.md" target="_blank" rel="noopener">Sources &amp; licenses</a>.</p>
+          </section>
+        </details>
 
       </div>
     </div>
@@ -590,6 +593,6 @@
   <script src="js/main.js"></script>
   <script src="js/trajectory-data.js"></script>
   <script src="js/trajectory-regions.js"></script>
-  <script src="js/trajectory.js?v=17574de3"></script>
+  <script src="js/trajectory.js?v=ff88b0c6"></script>
 </body>
 </html>

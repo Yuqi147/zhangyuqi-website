@@ -1,3 +1,23 @@
+.trajectory-disclosure > summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65em;
+  padding: 8px 16px;
+  cursor: pointer;
+  list-style: none;
+}
+.trajectory-disclosure > summary::-webkit-details-marker { display: none; }
+.trajectory-disclosure > summary::after {
+  content: "";
+  width: 0.45em;
+  height: 0.45em;
+  border: solid currentColor;
+  border-width: 0 1.5px 1.5px 0;
+  transform: rotate(45deg);
+}
+.trajectory-disclosure[open] > summary::after { transform: rotate(225deg); }
+.trajectory-disclosure[open] > .trajectory { margin-top: 16px; }
+
 /* The travel atlas keeps its own dark palette in both site themes. */
 .trajectory {
   --atlas-bg: #0c1421;

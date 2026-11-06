@@ -380,9 +380,9 @@ document.addEventListener('DOMContentLoaded', () => {
   areas.forEach(button => button.addEventListener('click', () => showArea(button.dataset.mapArea)));
   retry.addEventListener('click', initializeMap);
   dataRetry.addEventListener('click', () => initializeMap());
-  loadData().catch(() => {}); // The visible stay-log status reports CSV errors.
-  const observer = new IntersectionObserver(entries => {
-    if (entries.some(entry => entry.isIntersecting)) { initializeMap(); observer.disconnect(); }
-  }, { rootMargin: '300px' });
-  observer.observe(section);
+  const disclosure = section.closest('details');
+  disclosure.addEventListener('toggle', () => {
+    if (disclosure.open) initializeMap();
+  });
+  if (disclosure.open) initializeMap();
 });
