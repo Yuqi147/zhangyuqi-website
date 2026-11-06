@@ -1,0 +1,172 @@
+id,city,state_province,country,purpose,start,end,longitude,latitude,city_zh,state_province_zh
+dalian,Dalian,Liaoning,China,study,2004-02-22,2022-08-14,121.6147,38.914,大连,辽宁
+liling-2005-07-03-live,Liling,Hunan,China,live,2005-07-03,2005-07-30,113.50,27.65,醴陵,湖南
+tianjin-2005-10-02-travel,Tianjin,Tianjin,China,travel,2005-10-02,2005-10-05,117.20,39.13,天津,天津
+beijing-2008-05-14-travel,Beijing,Beijing,China,travel,2008-05-14,2008-05-18,116.40,39.90,北京,北京
+liling-2010-01-27-live,Liling,Hunan,China,live,2010-01-27,2010-02-22,113.50,27.65,醴陵,湖南
+hangzhou-2011-04-25-travel,Hangzhou,Zhejiang,China,travel,2011-04-25,2011-04-28,120.15,30.27,杭州,浙江
+shanghai-2011-04-28-travel,Shanghai,Shanghai,China,travel,2011-04-28,2011-04-30,121.47,31.23,上海,上海
+yantai-2011-08-14-travel,Yantai,Shandong,China,travel,2011-08-14,2011-08-15,121.45,37.45,烟台,山东
+qingdao-2011-08-15-travel,Qingdao,Shandong,China,travel,2011-08-15,2011-08-18,120.3826,36.0671,青岛,山东
+weihai-2011-08-18-travel,Weihai,Shandong,China,travel,2011-08-18,2011-08-20,122.12,37.51,威海,山东
+benxi-2011-10-02-travel,Benxi,Liaoning,China,travel,2011-10-02,2011-10-03,123.77,41.30,本溪,辽宁
+huanren-county-benxi-2011-10-03-travel,"Huanren County, Benxi",Liaoning,China,travel,2011-10-03,2011-10-04,125.36,41.27,本溪桓仁,辽宁
+dandong-2011-10-04-travel,Dandong,Liaoning,China,travel,2011-10-04,2011-10-05,124.36,40.14,丹东,辽宁
+shenzhen-2012-02-18-travel,Shenzhen,Guangdong,China,travel,2012-02-18,2012-02-19,114.0579,22.5431,深圳,广东
+macao-2012-02-20-travel,Macao,Macao,China,travel,2012-02-20,2012-02-20,113.55,22.19,澳门,澳门
+zhuhai-2012-02-21-travel,Zhuhai,Guangdong,China,travel,2012-02-21,2012-02-21,113.57,22.27,珠海,广东
+hong-kong-2012-02-22-travel,Hong Kong,Hong Kong,China,travel,2012-02-22,2012-02-25,114.17,22.32,香港,香港
+shenzhen-2012-02-25-travel,Shenzhen,Guangdong,China,travel,2012-02-25,2012-02-26,114.0579,22.5431,深圳,广东
+xiamen-2012-05-10-travel,Xiamen,Fujian,China,travel,2012-05-10,2012-05-13,118.11,24.47,厦门,福建
+beijing-2012-06-04-travel,Beijing,Beijing,China,travel,2012-06-04,2012-06-10,116.40,39.90,北京,北京
+huangshan-2012-07-23-travel,Huangshan,Anhui,China,travel,2012-07-23,2012-07-25,118.34,29.72,黄山,安徽
+shanghai-2012-07-25-travel,Shanghai,Shanghai,China,travel,2012-07-25,2012-07-27,121.47,31.23,上海,上海
+changbai-mountain-2012-08-15-travel,Changbai Mountain,Jilin,China,travel,2012-08-15,2012-08-16,127.965,41.964,长白山,吉林
+tumen-yanbian-2012-08-17-travel,"Tumen, Yanbian",Jilin,China,travel,2012-08-17,2012-08-17,129.805,42.97,延边图们,吉林
+wangqing-county-yanbian-2012-08-18-travel,"Wangqing County, Yanbian",Jilin,China,travel,2012-08-18,2012-08-18,129.77,43.31,延边汪清,吉林
+yanji-2012-08-19-travel,Yanji,Jilin,China,travel,2012-08-19,2012-08-19,129.51,42.90,延吉,吉林
+changhai-county-dalian-2012-08-22-travel,"Changhai County, Dalian",Liaoning,China,travel,2012-08-22,2012-08-23,122.59,39.27,大连市长海县,辽宁
+panjin-2012-09-30-travel,Panjin,Liaoning,China,travel,2012-09-30,2012-10-01,122.07,41.12,盘锦,辽宁
+anshan-2012-10-02-travel,Anshan,Liaoning,China,travel,2012-10-02,2012-10-04,122.99,41.11,鞍山,辽宁
+sanya-2013-01-26-travel,Sanya,Hainan,China,travel,2013-01-26,2013-02-03,109.51,18.25,三亚,海南
+liling-2013-02-03-live,Liling,Hunan,China,live,2013-02-03,2013-02-13,113.50,27.65,醴陵,湖南
+zhengzhou-2013-07-24-travel,Zhengzhou,Henan,China,travel,2013-07-24,2013-07-27,113.63,34.75,郑州,河南
+mount-yuntai-jiaozuo-2013-07-26-travel,"Mount Yuntai, Jiaozuo",Henan,China,travel,2013-07-26,2013-07-26,113.36,35.43,焦作云台山,河南
+xian-2013-09-18-travel,Xi'an,Shaanxi,China,travel,2013-09-18,2013-09-23,108.94,34.26,西安,陕西
+tokyo-2014-01-11-travel,Tokyo,Tokyo,Japan,travel,2014-01-11,2014-01-14,139.69,35.69,,
+hakone-2014-01-14-travel,Hakone,Kanagawa,Japan,travel,2014-01-14,2014-01-15,139.03,35.23,,
+mount-fuji-2014-01-14-travel,Mount Fuji,Yamanashi / Shizuoka,Japan,travel,2014-01-14,2014-01-15,138.727,35.361,,
+osaka-2014-01-16-travel,Osaka,Osaka,Japan,travel,2014-01-16,2014-01-17,135.50,34.69,,
+beijing-2014-08-28-transfer,Beijing,Beijing,China,transfer,2014-08-28,2014-08-31,116.40,39.90,北京,北京
+canterbury-2014-09-01-study,Canterbury,Kent,United Kingdom,study,2014-09-01,2015-08-31,1.08,51.28,,
+london-2014-10-26-travel,London,Greater London,United Kingdom,travel,2014-10-26,2014-10-28,-0.128,51.508,,
+paris-2014-12-20-travel,Paris,Île-de-France,France,travel,2014-12-20,2014-12-21,2.352,48.857,,
+amiens-2014-12-20-travel,Amiens,Hauts-de-France,France,travel,2014-12-20,2014-12-21,2.30,49.89,,
+brussels-2014-12-21-travel,Brussels,Brussels-Capital Region,Belgium,travel,2014-12-21,2014-12-22,4.35,50.85,,
+frankfurt-am-main-2014-12-23-travel,Frankfurt am Main,Hesse,Germany,travel,2014-12-23,2014-12-23,8.68,50.11,,
+munich-2014-12-23-travel,Munich,Bavaria,Germany,travel,2014-12-23,2014-12-23,11.58,48.14,,
+vatican-city-2014-12-24-travel,Vatican City,Vatican City,Vatican City,travel,2014-12-24,2014-12-24,12.453,41.903,,
+rome-2014-12-25-travel,Rome,Lazio,Italy,travel,2014-12-25,2014-12-25,12.50,41.90,,
+pisa-2014-12-26-travel,Pisa,Tuscany,Italy,travel,2014-12-26,2014-12-26,10.40,43.72,,
+milan-2014-12-27-travel,Milan,Lombardy,Italy,travel,2014-12-27,2014-12-27,9.19,45.46,,
+geneva-2014-12-28-travel,Geneva,Geneva,Switzerland,travel,2014-12-28,2014-12-28,6.14,46.20,,
+paris-2014-12-29-travel,Paris,Île-de-France,France,travel,2014-12-29,2015-01-02,2.352,48.857,,
+london-2015-02-17-travel,London,Greater London,United Kingdom,travel,2015-02-17,2015-02-17,-0.128,51.508,,
+paris-2015-04-02-travel,Paris,Île-de-France,France,travel,2015-04-02,2015-04-02,2.352,48.857,,
+toulouse-2015-04-03-travel,Toulouse,Occitanie,France,travel,2015-04-03,2015-04-03,1.44,43.60,,
+barcelona-2015-04-04-travel,Barcelona,Catalonia,Spain,travel,2015-04-04,2015-04-06,2.17,41.39,,
+granada-2015-04-07-travel,Granada,Andalusia,Spain,travel,2015-04-07,2015-04-07,-3.60,37.18,,
+malaga-2015-04-08-travel,Málaga,Andalusia,Spain,travel,2015-04-08,2015-04-08,-4.42,36.72,,
+ronda-2015-04-09-travel,Ronda,Andalusia,Spain,travel,2015-04-09,2015-04-09,-5.16,36.74,,
+seville-2015-04-10-travel,Seville,Andalusia,Spain,travel,2015-04-10,2015-04-11,-5.99,37.39,,
+madrid-2015-04-12-travel,Madrid,Community of Madrid,Spain,travel,2015-04-12,2015-04-13,-3.70,40.42,,
+segovia-2015-04-12-travel,Segovia,Castile and León,Spain,travel,2015-04-12,2015-04-13,-4.12,40.95,,
+amsterdam-2015-04-14-travel,Amsterdam,North Holland,Netherlands,travel,2015-04-14,2015-04-16,4.90,52.37,,
+paris-2015-04-17-travel,Paris,Île-de-France,France,travel,2015-04-17,2015-04-17,2.352,48.857,,
+folkestone-2015-04-26-travel,Folkestone,Kent,United Kingdom,travel,2015-04-26,2015-04-26,1.175,51.079,,
+dover-2015-05-02-travel,Dover,Kent,United Kingdom,travel,2015-05-02,2015-05-02,1.31,51.13,,
+isle-of-wight-2015-05-18-travel,Isle of Wight,Isle of Wight,United Kingdom,travel,2015-05-18,2015-05-22,-1.31,50.68,,
+folkestone-2015-05-23-travel,Folkestone,Kent,United Kingdom,travel,2015-05-23,2015-05-25,1.175,51.079,,
+london-2015-06-13-travel,London,Greater London,United Kingdom,travel,2015-06-13,2015-06-13,-0.128,51.508,,
+leeds-castle-2015-06-28-travel,Leeds Castle,Kent,United Kingdom,travel,2015-06-28,2015-06-28,0.630,51.249,,
+margate-2015-07-18-travel,Margate,Kent,United Kingdom,travel,2015-07-18,2015-07-18,1.386,51.387,,
+london-2015-07-25-travel,London,Greater London,United Kingdom,travel,2015-07-25,2015-07-25,-0.128,51.508,,
+cambridge-2015-07-26-travel,Cambridge,Cambridgeshire,United Kingdom,travel,2015-07-26,2015-07-26,0.12,52.21,,
+york-2015-07-27-travel,York,North Yorkshire,United Kingdom,travel,2015-07-27,2015-07-27,-1.08,53.96,,
+edinburgh-2015-07-28-travel,Edinburgh,Scotland,United Kingdom,travel,2015-07-28,2015-07-29,-3.19,55.95,,
+glasgow-2015-07-30-travel,Glasgow,Scotland,United Kingdom,travel,2015-07-30,2015-07-30,-4.25,55.86,,
+liverpool-2015-07-31-travel,Liverpool,Merseyside,United Kingdom,travel,2015-07-31,2015-07-31,-2.98,53.41,,
+oxford-2015-08-01-travel,Oxford,Oxfordshire,United Kingdom,travel,2015-08-01,2015-08-02,-1.26,51.75,,
+bristol-2015-08-07-travel,Bristol,Bristol,United Kingdom,travel,2015-08-07,2015-08-08,-2.59,51.45,,
+bath-2015-08-07-travel,Bath,Somerset,United Kingdom,travel,2015-08-07,2015-08-08,-2.36,51.38,,
+london-2015-08-15-travel,London,Greater London,United Kingdom,travel,2015-08-15,2015-08-15,-0.128,51.508,,
+eastbourne-2015-08-16-travel,Eastbourne,East Sussex,United Kingdom,travel,2015-08-16,2015-08-16,0.28,50.77,,
+windsor-2015-08-17-travel,Windsor,Berkshire,United Kingdom,travel,2015-08-17,2015-08-17,-0.61,51.48,,
+southampton-2015-08-19-travel,Southampton,Hampshire,United Kingdom,travel,2015-08-19,2015-08-20,-1.40,50.91,,
+isle-of-wight-2015-08-19-travel,Isle of Wight,Isle of Wight,United Kingdom,travel,2015-08-19,2015-08-20,-1.31,50.68,,
+london-2015-08-27-travel,London,Greater London,United Kingdom,travel,2015-08-27,2015-08-27,-0.128,51.508,,
+harbin-2016-01-18-travel,Harbin,Heilongjiang,China,travel,2016-01-18,2016-01-23,126.64,45.76,哈尔滨,黑龙江
+changshou-mountain-yanshou-county-2016-01-18-travel,"Changshou Mountain, Yanshou County",Heilongjiang,China,travel,2016-01-18,2016-01-23,128.495,45.317,延寿县长寿山,黑龙江
+baotou-2016-07-22-transfer,Baotou,Inner Mongolia,China,transfer,2016-07-22,2016-07-22,109.84,40.66,包头,内蒙古
+kubuqi-desert-2016-07-23-travel,Kubuqi Desert,Inner Mongolia,China,travel,2016-07-23,2016-07-30,108.25,40.39,库布奇沙漠,内蒙古
+baotou-2016-07-31-transfer,Baotou,Inner Mongolia,China,transfer,2016-07-31,2016-07-31,109.84,40.66,包头,内蒙古
+chaoyang-2016-10-02-travel,Chaoyang,Liaoning,China,travel,2016-10-02,2016-10-04,120.45,41.57,朝阳,辽宁
+hong-kong-2017-02-12-travel,Hong Kong,Hong Kong,China,travel,2017-02-12,2017-02-13,114.17,22.32,香港,香港
+singapore-2017-02-14-travel,Singapore,Central Region,Singapore,travel,2017-02-14,2017-02-19,103.85,1.29,,
+xiamen-2017-02-19-travel,Xiamen,Fujian,China,travel,2017-02-19,2017-02-21,118.11,24.47,厦门,福建
+yingkou-2017-08-14-travel,Yingkou,Liaoning,China,travel,2017-08-14,2017-08-16,122.24,40.67,营口,辽宁
+beijing-2018-02-16-travel,Beijing,Beijing,China,travel,2018-02-16,2018-02-20,116.40,39.90,北京,北京
+beijing-2018-06-02-travel,Beijing,Beijing,China,travel,2018-06-02,2018-06-03,116.40,39.90,北京,北京
+kunming-2018-07-26-transfer,Kunming,Yunnan,China,transfer,2018-07-26,2018-07-26,102.71,25.04,昆明,云南
+mojiang-2018-07-27-travel,Mojiang,Yunnan,China,travel,2018-07-27,2018-07-31,101.69,23.43,墨江,云南
+kunming-2018-08-01-transfer,Kunming,Yunnan,China,transfer,2018-08-01,2018-08-01,102.71,25.04,昆明,云南
+tianjin-2019-01-17-travel,Tianjin,Tianjin,China,travel,2019-01-17,2019-01-22,117.20,39.13,天津,天津
+tianjin-2019-08-05-travel,Tianjin,Tianjin,China,travel,2019-08-05,2019-08-07,117.20,39.13,天津,天津
+quanzhou-2019-08-13-travel,Quanzhou,Fujian,China,travel,2019-08-13,2019-08-18,118.59,24.91,泉州,福建
+wuhan-2020-01-18-travel,Wuhan,Hubei,China,travel,2020-01-18,2020-01-19,114.30,30.59,武汉,湖北
+yueyang-2020-01-20-travel,Yueyang,Hunan,China,travel,2020-01-20,2020-01-20,113.13,29.36,岳阳,湖南
+changsha-2020-01-21-travel,Changsha,Hunan,China,travel,2020-01-21,2020-01-21,112.94,28.23,长沙,湖南
+liling-2020-01-24-live,Liling,Hunan,China,live,2020-01-24,2020-01-25,113.50,27.65,醴陵,湖南
+shenzhen,Shenzhen,Guangdong,China,study,2022-08-14,2026-07-02,114.0579,22.5431,深圳,广东
+chengdu-2023-04-27-travel,Chengdu,Sichuan,China,travel,2023-04-27,2023-05-04,104.07,30.66,成都,四川
+zhanjiang-2023-06-21-travel,Zhanjiang,Guangdong,China,travel,2023-06-21,2023-06-25,110.36,21.27,湛江,广东
+lianping-county-heyuan-2023-07-11-study,"Lianping County, Heyuan",Guangdong,China,study,2023-07-11,2023-07-22,114.49,24.37,河源市连平县,广东
+kunming-2023-08-01-travel,Kunming,Yunnan,China,travel,2023-08-01,2023-08-02,102.71,25.04,昆明,云南
+dali-2023-08-02-travel,Dali,Yunnan,China,travel,2023-08-02,2023-08-04,100.23,25.59,大理,云南
+lijiang-2023-08-04-travel,Lijiang,Yunnan,China,travel,2023-08-04,2023-08-06,100.23,26.87,丽江,云南
+dali-2023-08-06-travel,Dali,Yunnan,China,travel,2023-08-06,2023-08-09,100.23,25.59,大理,云南
+dali-2023-08-09-travel,Dali,Yunnan,China,travel,2023-08-09,2023-08-10,100.23,25.59,大理,云南
+liling-2023-09-30-live,Liling,Hunan,China,live,2023-09-30,2023-10-03,113.50,27.65,醴陵,湖南
+guangzhou-2023-12-08-travel,Guangzhou,Guangdong,China,travel,2023-12-08,2023-12-10,113.2644,23.1291,广州,广东
+shanwei-2024-01-22-travel,Shanwei,Guangdong,China,travel,2024-01-22,2024-01-23,115.38,22.79,汕尾,广东
+guangzhou,Guangzhou,Guangdong,China,live,2024-05-01,2024-05-07,113.2644,23.1291,广州,广东
+beijing-2024-07-02-travel,Beijing,Beijing,China,travel,2024-07-02,2024-07-07,116.40,39.90,北京,北京
+xiamen-2024-09-04-travel,Xiamen,Fujian,China,travel,2024-09-04,2024-09-07,118.11,24.47,厦门,福建
+guangzhou-2024-09-29-live,Guangzhou,Guangdong,China,live,2024-09-29,2024-10-06,113.2644,23.1291,广州,广东
+nanjing-2024-10-06-travel,Nanjing,Jiangsu,China,travel,2024-10-06,2024-10-12,118.80,32.06,南京,江苏
+zhuhai-2024-11-15-travel,Zhuhai,Guangdong,China,travel,2024-11-15,2024-11-17,113.57,22.27,珠海,广东
+berkeley-2025-01-13-study,Berkeley,California,United States,study,2025-01-13,2025-08-17,-122.27,37.87,,
+hong-kong-2025-01-13-transfer,Hong Kong,Hong Kong,China,transfer,2025-01-13,2025-01-13,114.17,22.32,香港,香港
+san-francisco-2025-01-13-transfer,San Francisco,California,United States,transfer,2025-01-13,2025-01-13,-122.42,37.77,,
+tokyo-2025-01-13-transfer,Tokyo,Tokyo,Japan,transfer,2025-01-13,2025-01-13,139.69,35.69,,
+san-francisco-2025-01-18-travel,San Francisco,California,United States,travel,2025-01-18,2025-01-18,-122.42,37.77,,
+san-francisco-2025-02-17-travel,San Francisco,California,United States,travel,2025-02-17,2025-02-17,-122.42,37.77,,
+palo-alto-2025-05-09-travel,Palo Alto,California,United States,travel,2025-05-09,2025-05-09,-122.14,37.44,,
+san-jose-2025-05-19-travel,San Jose,California,United States,travel,2025-05-19,2025-05-19,-121.89,37.34,,
+los-angeles-2025-05-27-travel,Los Angeles,California,United States,travel,2025-05-27,2025-05-28,-118.24,34.05,,
+san-diego-2025-05-29-travel,San Diego,California,United States,travel,2025-05-29,2025-05-31,-117.16,32.72,,
+los-angeles-2025-06-20-travel,Los Angeles,California,United States,travel,2025-06-20,2025-06-25,-118.24,34.05,,
+davis-2025-summer,Davis,California,United States,Live (weekends),2025-07,2025-08,-121.74,38.54,,
+oakland-2025-08-09-travel,Oakland,California,United States,travel,2025-08-09,2025-08-09,-122.27,37.80,,
+incheon-2025-08-19-transfer,Incheon,Incheon,South Korea,transfer,2025-08-19,2025-08-19,126.71,37.46,,
+guangzhou-2025-09-30-live,Guangzhou,Guangdong,China,live,2025-09-30,2025-10-08,113.2644,23.1291,广州,广东
+chengdu-2025-10-17-travel,Chengdu,Sichuan,China,travel,2025-10-17,2025-10-23,104.07,30.66,成都,四川
+shanwei-2025-11-27-travel,Shanwei,Guangdong,China,travel,2025-11-27,2025-11-29,115.38,22.79,汕尾,广东
+dandong-2026-01-12-travel,Dandong,Liaoning,China,travel,2026-01-12,2026-01-14,124.36,40.14,丹东,辽宁
+shenyang-2026-01-14-travel,Shenyang,Liaoning,China,travel,2026-01-14,2026-01-17,123.43,41.80,沈阳,辽宁
+nanchang-2026-03-25-travel,Nanchang,Jiangxi,China,travel,2026-03-25,2026-03-28,115.86,28.68,南昌,江西
+jingdezhen-2026-03-26-travel,Jingdezhen,Jiangxi,China,travel,2026-03-26,2026-03-27,117.18,29.27,景德镇,江西
+yangjiang-2026-04-10-travel,Yangjiang,Guangdong,China,travel,2026-04-10,2026-04-12,111.98,21.86,阳江,广东
+chongqing-2026-04-24-travel,Chongqing,Chongqing,China,travel,2026-04-24,2026-04-27,106.55,29.56,重庆,重庆
+qingdao,Qingdao,Shandong,China,travel,2026-05-20,2026-05-25,120.3826,36.0671,青岛,山东
+urumqi-2026-06-11-travel,Ürümqi,Xinjiang,China,travel,2026-06-11,2026-06-12,87.62,43.83,乌鲁木齐,新疆
+xian-2026-06-11-transfer,Xi'an,Shaanxi,China,transfer,2026-06-11,2026-06-11,108.94,34.26,西安,陕西
+wucaiwan-2026-06-12-travel,Wucaiwan,Xinjiang,China,travel,2026-06-12,2026-06-13,89.10,44.78,五彩湾镇,新疆
+keketuohai-2026-06-13-travel,Keketuohai,Xinjiang,China,travel,2026-06-13,2026-06-14,89.82,47.22,可可托海,新疆
+altay-2026-06-14-travel,Altay,Xinjiang,China,travel,2026-06-14,2026-06-15,88.14,47.85,阿勒泰市,新疆
+kanas-2026-06-15-travel,Kanas,Xinjiang,China,travel,2026-06-15,2026-06-16,87.04,48.70,喀纳斯,新疆
+burqin-county-2026-06-16-travel,Burqin County,Xinjiang,China,travel,2026-06-16,2026-06-17,86.87,47.70,布尔津县,新疆
+bole-2026-06-17-travel,Bole,Xinjiang,China,travel,2026-06-17,2026-06-18,82.07,44.90,博乐市,新疆
+sayram-lake-2026-06-18-travel,Sayram Lake,Xinjiang,China,travel,2026-06-18,2026-06-18,81.17,44.60,赛里木湖,新疆
+yining-2026-06-18-travel,Yining,Xinjiang,China,travel,2026-06-18,2026-06-19,81.32,43.92,伊宁,新疆
+nalati-2026-06-19-travel,Nalati,Xinjiang,China,travel,2026-06-19,2026-06-20,84.001,43.3268,那拉提,新疆
+kuqa-2026-06-20-travel,Kuqa,Xinjiang,China,travel,2026-06-20,2026-06-21,82.96,41.72,库车,新疆
+korla-2026-06-21-travel,Korla,Xinjiang,China,travel,2026-06-21,2026-06-22,86.15,41.73,库尔勒,新疆
+urumqi-2026-06-22-travel,Ürümqi,Xinjiang,China,travel,2026-06-22,2026-06-23,87.62,43.83,乌鲁木齐,新疆
+chongqing-2026-06-23-transfer,Chongqing,Chongqing,China,transfer,2026-06-23,2026-06-23,106.55,29.56,重庆,重庆
+guangzhou-2026-07-02-live,Guangzhou,Guangdong,China,live,2026-07-02,2026-07-11,113.2644,23.1291,广州,广东
+guiyang-2026-07-05-travel,Guiyang,Guizhou,China,travel,2026-07-05,2026-07-10,106.63,26.65,贵阳,贵州
+kaili-2026-07-09-travel,Kaili,Guizhou,China,travel,2026-07-09,2026-07-10,107.98,26.58,凯里,贵州
+jinzhou-2026-08-12-travel,Jinzhou,Liaoning,China,travel,2026-08-12,2026-08-14,121.13,41.10,锦州,辽宁
+incheon-2026-08-24-transfer,Incheon,Incheon,South Korea,transfer,2026-08-24,2026-08-25,126.71,37.46,,
+boston,Boston,Massachusetts,United States,study,2026-08-25,Present,-71.0589,42.3601,,

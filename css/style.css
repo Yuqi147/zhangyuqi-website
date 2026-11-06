@@ -53,11 +53,15 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
   font-size: 16px;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100svh;
   font-family: var(--font-sans);
   background: var(--bg);
   color: var(--text);
@@ -117,11 +121,38 @@ img {
 }
 
 .section {
-  padding: 88px 0;
-  border-bottom: 1px solid var(--border);
+  flex: 1;
+  padding: 56px 0 64px;
 }
-.section:last-of-type {
-  border-bottom: none;
+.section[hidden] {
+  display: none !important;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-top: 60px;
+}
+
+.page-content:focus,
+.section h1:focus {
+  outline: none;
+}
+
+.skip-link {
+  position: fixed;
+  top: 8px;
+  left: 16px;
+  z-index: 1001;
+  padding: 8px 16px;
+  background: var(--surface);
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  transform: translateY(-150%);
+}
+.skip-link:focus {
+  transform: translateY(0);
 }
 
 .section-title {
@@ -282,9 +313,8 @@ img {
 .hero {
   position: relative;
   overflow: hidden;
-  padding: 150px 0 90px;
+  padding: 56px 0 64px;
   text-align: center;
-  min-height: 78vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -643,6 +673,7 @@ img {
 .project-card:hover {
   border-color: var(--accent);
   box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
 }
 .project-card.featured {
   border-left: 3px solid var(--accent);
@@ -955,7 +986,11 @@ a.contact-item:hover {
 /* ============================================================
    Responsive
    ============================================================ */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+  .nav-logo {
+    margin-right: auto;
+  }
+
   .nav-links {
     display: none;
     position: absolute;
@@ -963,11 +998,13 @@ a.contact-item:hover {
     left: 0;
     right: 0;
     flex-direction: column;
-    background: var(--nav-bg);
+    background: var(--bg);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     padding: 16px 24px;
-    gap: 14px;
+    gap: 4px;
+    max-height: calc(100svh - 60px);
+    overflow-y: auto;
     border-bottom: 1px solid var(--border);
   }
   .nav-links.open {
@@ -976,14 +1013,36 @@ a.contact-item:hover {
   .nav-links a::after {
     display: none;
   }
+  .nav-links a {
+    display: block;
+    padding: 8px 12px;
+    border-radius: 8px;
+  }
+  .nav-links a.active {
+    background: var(--accent-soft);
+  }
 
   .hamburger {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
   }
+  .hamburger[aria-expanded="true"] span:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+  }
+  .hamburger[aria-expanded="true"] span:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger[aria-expanded="true"] span:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+  }
+}
 
+@media (max-width: 768px) {
   .hero {
-    padding-top: 120px;
-    min-height: auto;
+    padding: 40px 0 48px;
   }
   .hero-name {
     font-size: 2rem;
@@ -994,7 +1053,7 @@ a.contact-item:hover {
   }
 
   .section {
-    padding: 60px 0;
+    padding: 40px 0 48px;
   }
   .section-title::after {
     margin: 12px 0 28px;
@@ -1070,6 +1129,9 @@ a.contact-item:hover {
   }
   .hero * {
     animation: none !important;
+  }
+  .project-card:hover {
+    transform: none;
   }
   .avatar,
   .photo-item img,

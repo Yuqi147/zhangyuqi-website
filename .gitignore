@@ -1,5 +1,6 @@
-﻿_backup/
+_backup/
 _shots/
+*.txt
 
 # LaTeX build artifacts (cv1_yuqi)
 cv1_yuqi/*.aux
